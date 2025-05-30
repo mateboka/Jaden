@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Projects</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 0 20px;
-    }
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #00a81f;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Jaden</title>
+
+  <!-- Roboto font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </nav>
+  <header>
+    <div class="logo">Jaden</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="brewery.html">Brewery</a>
+    </nav>
+  </header>
 
-  <h1>Projects</h1>
-  <ul>
-    <li>Project 1 - Description coming soon</li>
-    <li>Project 2 - Description coming soon</li>
-    <li>Project 3 - Description coming soon</li>
-  </ul>
+  <main>
+    <section class="projects-section">
+      <h1>Our Projects</h1>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="nosatron.png" alt="Project One" />
+          <h2>Nosatron remastered</h2>
+          <p>Bringing back the memories.</p>
+        </article>
+        <article class="project-card">
+          <img src="data.jpg" alt="Project Two" />
+          <h2>Data Engineering 101</h2>
+          <p>Weather looks cloudy.</p>
+        </article>
+        <article class="project-card">
+          <img src="jaden.png" alt="Project Three" />
+          <h2>Website dev</h2>
+          <p>You can see why...</p>
+        </article>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
